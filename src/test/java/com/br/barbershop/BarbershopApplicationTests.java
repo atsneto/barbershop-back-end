@@ -1,4 +1,4 @@
-package com.br.barbershop.barbershop;
+package com.br.barbershop;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
