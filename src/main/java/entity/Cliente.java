@@ -11,7 +11,7 @@ import lombok.*;
 @Entity // Indica que a classe é uma entidade JPA
 public class Cliente {
     @Id // Define o campo id como chave primária
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Especifica que o valor da chave primária será gerado automaticamente pelo banco de dados
     private long id;
 
     @OneToOne(fetch = FetchType.EAGER)
